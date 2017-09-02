@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 058b00e745a41834fb2d81c69d68d107
-timeCreated: 1504390711
+guid: f8bf07aaa662f5b4bbb23ae4f3e2bf46
+timeCreated: 1504392866
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -147,42 +147,41 @@ ModelImporter:
     3300064: Cylinder28
     3300066: Sphere01
     3300068: Tube01
-    4300000: Box05
-    4300002: Cylinder28
-    4300004: Cylinder27
-    4300006: Cylinder26
-    4300008: Cylinder25
-    4300010: Cylinder24
-    4300012: Cylinder23
-    4300014: Cylinder22
-    4300016: Sphere01
-    4300018: Cylinder21
-    4300020: Cylinder20
-    4300022: Box04
-    4300024: Tube01
-    4300026: Cylinder19
-    4300028: Cylinder18
-    4300030: Cylinder17
-    4300032: Cylinder16
-    4300034: Cylinder15
+    4300000: Box01
+    4300002: Box02
+    4300004: Box03
+    4300006: Box04
+    4300008: Box05
+    4300010: Cylinder01
+    4300012: Cylinder02
+    4300014: Cylinder03
+    4300016: Cylinder04
+    4300018: Cylinder05
+    4300020: Cylinder06
+    4300022: Cylinder07
+    4300024: Cylinder08
+    4300026: Cylinder09
+    4300028: Cylinder10
+    4300030: Cylinder11
+    4300032: Cylinder12
+    4300034: Cylinder13
     4300036: Cylinder14
-    4300038: Box01
-    4300040: Cylinder13
-    4300042: Cylinder12
-    4300044: Cylinder11
-    4300046: Cylinder10
-    4300048: Cylinder09
-    4300050: Cylinder08
-    4300052: Cylinder07
-    4300054: Cylinder06
-    4300056: Cylinder05
-    4300058: Cylinder04
-    4300060: Cylinder03
-    4300062: Cylinder02
-    4300064: Box03
-    4300066: Cylinder01
-    4300068: Box02
-    9500000: //RootNode
+    4300038: Cylinder15
+    4300040: Cylinder16
+    4300042: Cylinder17
+    4300044: Cylinder18
+    4300046: Cylinder19
+    4300048: Cylinder20
+    4300050: Cylinder21
+    4300052: Cylinder22
+    4300054: Cylinder23
+    4300056: Cylinder24
+    4300058: Cylinder25
+    4300060: Cylinder26
+    4300062: Cylinder27
+    4300064: Cylinder28
+    4300066: Sphere01
+    4300068: Tube01
   materials:
     importMaterials: 1
     materialName: 0
@@ -252,7 +251,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
