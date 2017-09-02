@@ -409,7 +409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4116123457108648}
   m_Layer: 0
-  m_Name: Telephone fixed
+  m_Name: Telephone fixed prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
