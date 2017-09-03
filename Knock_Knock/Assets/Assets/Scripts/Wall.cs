@@ -24,7 +24,7 @@ public class Wall : MonoBehaviour {
 
         if(other.transform.parent.parent.gameObject)
         {
-            Debug.Log(other.transform.parent.parent.gameObject.name);
+            //Debug.Log(other.transform.parent.parent.gameObject.name);
             if (other.transform.parent.parent.gameObject.tag=="GameController")
             {
             Debug.Log("enter");
