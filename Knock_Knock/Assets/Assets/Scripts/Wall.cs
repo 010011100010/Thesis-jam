@@ -28,7 +28,7 @@ public class Wall : MonoBehaviour {
             if (other.transform.parent.parent.gameObject.tag=="GameController")
             {
             Debug.Log("enter");
-            WallKnock.clip = WallKnocks[Random.Range(0, 4)];
+            WallKnock.clip = WallKnocks[Random.Range(0, WallKnocks.Count-1)];
             WallKnock.Play();
             }
         }
