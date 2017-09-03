@@ -21,16 +21,17 @@ public class Wall : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+
         if(other.transform.parent.parent.gameObject)
         {
-            if(other.transform.parent.parent.gameObject.tag=="GameController")
+            Debug.Log(other.transform.parent.parent.gameObject.name);
+            if (other.transform.parent.parent.gameObject.tag=="GameController")
             {
             Debug.Log("enter");
             WallKnock.clip = WallKnocks[Random.Range(0, 4)];
             WallKnock.Play();
             }
         }
-        //Debug.Log(other.transform.parent.parent.gameObject.tag);
 
     }
 }
